@@ -1,0 +1,34 @@
+.Container {
+  display: grid;
+  grid-template-columns: repeat(10, 32px);
+  grid-template-rows: repeat(10, 32px);
+  margin-top: 3.8rem;
+  position: relative;
+}
+
+.Item {
+  background-color: #02101d;
+  width: 32px;
+  height: 32px;
+  border-collapse: collapse;
+  box-shadow: 1px 0 0 0 rgb(120, 120, 120), 0 1px 0 0 rgb(120, 120, 120),
+    1px 1px 0 0 rgb(120, 120, 120), inset 1px 0 0 0 rgb(120, 120, 120),
+    inset 0 1px 0 0 rgb(120, 120, 120);
+  display: flex;
+  align-items: center;
+}
+
+.CellText {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.Hit {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+.Miss {
+  background-color: rgba(195, 195, 195, 0.678);
+}

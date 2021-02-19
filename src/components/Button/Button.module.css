@@ -1,0 +1,18 @@
+.StartGame {
+  border: none;
+  padding: 2px 8px;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(0, 0%, 93%);
+  font-size: 1.4rem;
+  margin-top: 3rem;
+}
+
+.StartGame:hover {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.41rem;
+}
+
+.StartGame:focus {
+  outline: none;
+}

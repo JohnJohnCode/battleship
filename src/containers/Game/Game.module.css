@@ -1,0 +1,23 @@
+.GridCont {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 45px;
+  height: fit-content;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.PlayerGrid {
+  width: fit-content;
+  height: fit-content;
+}
+
+.Hit {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+.Miss {
+  background-color: rgba(195, 195, 195, 0.678);
+}

@@ -1,0 +1,20 @@
+.shipPart {
+  background-color: rgba(8, 57, 103, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0);
+  height: 8px;
+  width: 8px;
+  margin: 1px;
+}
+
+.shipCont {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  margin: 4px;
+}
+
+.sunk {
+  background-color: rgba(140, 23, 43, 1);
+}

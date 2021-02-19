@@ -1,0 +1,77 @@
+.Victory {
+  color: rgb(95, 255, 47);
+}
+
+.Defeat {
+  color: rgb(255, 47, 47);
+}
+
+.Default {
+  color: transparent;
+  user-select: none;
+}
+
+.Victory, .Defeat {
+  font-size: 3rem;
+  margin: 1rem auto auto auto;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+  user-select: none;
+}
+
+.TextCont {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  z-index: 10;
+  margin-top: 25px;
+}
+
+.Appear {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

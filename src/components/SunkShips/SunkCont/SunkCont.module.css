@@ -1,0 +1,9 @@
+.SunkCont {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  top: 41%;
+  right: 20%;
+  z-index: 900;
+  color: yellow;
+}

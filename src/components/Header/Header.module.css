@@ -1,0 +1,18 @@
+.HeaderCont {
+  width: 100%;
+  height: 8rem;
+  top: 0;
+  background-color: #031526;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(0, 0%, 93%);
+  font-size: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Title {
+  width: fit-content;
+  height: fit-content;
+  text-shadow: 0px 0px 3px rgba(206, 206, 206, 0.35);
+}
